@@ -1,0 +1,83 @@
+@media (orientation: landscape){
+body{
+    background-image: url(images/background1.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    transform-origin: center ;
+    width: 100vh;
+    height: 100vw;
+}
+}
+#img1{
+    height: 550px;
+    width: 962px;
+    border-radius: 25px;
+     animation-name: apearDown;
+    animation-duration: 1s;
+    
+}
+.button-container1{
+    display: flex;
+    color: aliceblue;
+    position: relative;
+    margin: 90px;
+
+}
+#daily-something-button{
+    font-size: 100px;
+    border-radius: 25px;
+    width: 20cm; height: 5cm;
+    background-image: url(images/menu-button-background.jpg);
+    color: black;
+    box-shadow: 15px 15px 10px rgb(43, 42, 42);
+    border-width: 5px;
+    border-color: black;
+    animation-name: apearDown;
+    animation-duration: 1s;
+    animation-delay: 0.05s;
+}
+@keyframes apearDown{
+    from{
+        transform: translateY(-10%);
+        opacity: 0.25;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    } 
+}
+.button-container2{
+    display: flex;
+    margin: 90px;
+    color: aliceblue;
+    position: relative;
+}
+#menu-button{
+    font-size: 100px;
+    border-radius: 25px;
+    width: 20cm; height: 5cm;
+    background-image: url(images/menu-button-background.jpg);
+    box-shadow: 15px 15px 10px rgb(43, 42, 42);
+    border-width: 5px;
+    border-color: black;
+    animation-name: apearDown;
+    animation-duration: 1s;
+    animation-delay: 0.11s;
+}
+footer{
+  font-size: 20px;
+  color: aliceblue;
+   animation-name: apearDown;
+    animation-duration: 1s;
+    animation-delay: 0.07s;
+  
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    animation-name: apearDown;
+    animation-duration: 1s;
+    animation-delay: 0.08s;
+    
+}
